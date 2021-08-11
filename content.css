@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    background-image: linear-gradient(to right, #e5bdf6, #d8dede);
+}
+
+
+/*header*/
+
+.header {
+    position: fixed;
+    color: white;
+    padding: 20.0px;
+    top: 0px;
+    width: 100%;
+    z-index: 11;
+    background-image: linear-gradient(to right, #e5bdf6, #d8dede);
+}
+
+.header h1 {
+    font-family: Georgia, Arial, Helvetica;
+    margin-bottom: 5.0px;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin-left: 60px;
+    margin-top: 5.0px;
+}
+
+/*navbar*/
+
+.nav {
+    top: 145.0px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav ul {
+    background-image: url('https://st4.depositphotos.com/34055376/38042/i/450/depositphotos_380421438-stock-photo-cosmetic-background-podium-minimal-scene.jpg');
+    padding: 20px;
+    margin: 0px;
+    text-align: left;
+}
+
+.nav ul li {
+    color: white;
+    display: inline;
+    list-style: none;
+    font-size: 1.20em;
+    padding: 15.0px;
+}
+
+.nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*main*/
+
+.main {
+    display: flex;
+    margin-top: 190.0px;
+    background: rgba(255, 181, 218, 0.664);
+}
+
+.section {
+    background-color: rgba(255, 181, 218, 0.664);
+    padding: 30.0px;
+    display: inline-block;
+    width: 70%;
+    margin-left: 25%;
+}
+
+.section article h2 {
+    color: rgb(255 0 191 / 36%);
+    font-size: 2em;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.section article p {
+    font-size: 1.2em;
+    font-family: Garamond, serif;
+}
+
+.main {
+    margin-bottom: 30px;
+}
+
+/*sidebar*/
+
+.aside {
+    width: 25%;
+    position: fixed;
+    left: 0.0px;
+}
+
+.aside ul li a img {
+    width: 50.0px;
+    height: 50.0px;
+}
+
+.aside ul li a {
+    display: flex;
+    align-items: center;
+}
+
+.aside ul li a span {
+    margin-left: 20.0px;
+}
+
+.aside ul li {
+    list-style: none;
+    margin-top: 20.0px;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    background-image: linear-gradient(to right, #e5bdf6, #d8dede);
+}
+
+.footer-social ul li {
+    display: inline;
+    list-style: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.footer-social ul li i:hover {
+    color: rgb(255, 133, 133);
+}
+
+.send {
+    padding: 10px;
+    display: inline-block;
+
+    float: right;
+}
+
+.send input {
+    padding: 10.0px 20px;
+    border-radius: 2px;
+}
+
+.send button {
+    border: none;
+    background-color: rgb(255, 191, 71);
+    padding: 10.0px 20px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    color: white;
+}
+
+.section div figure {
+    float: left;
+    width: 500px;
+    margin: 40px;
+}
+
+.section div figure img {
+    width: 500px;
+}
+
+figcaption {
+    margin-left: 20px;
+}
+.aside h3{
+    color: rgba(0, 0, 0, 0.425);
+}
+.glitte-images{
+    display: flex;
+}
+.glitte-images img{
+    width: 350px;
+    height: 350px;
+    margin-right: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,181 @@
+body {
+    margin: 0px;
+    background-image: linear-gradient(to right, #e5bdf6, #d8dede);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*header*/
+
+.header {
+    position: fixed;
+    color: white;
+    padding: 20px;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    background-image: linear-gradient(to right, #e5bdf6, #d8dede);
+}
+
+.header h1 {
+    font-family: Georgia, Arial, Helvetica;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+/*navbar*/
+
+
+
+.nav ul {
+    background-image: url('https://st4.depositphotos.com/34055376/38042/i/450/depositphotos_380421438-stock-photo-cosmetic-background-podium-minimal-scene.jpg');
+    padding: 20px;
+    margin: 0px;
+    text-align: left;
+}
+.nav {
+    top: 144px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav ul li {
+    color: white;
+    display: inline;
+    list-style: none;
+    font-size: 1.25em;
+    padding: 14px;
+}
+
+/*main*/
+
+.main {
+    display: flex;
+    margin-top: 191px;
+    background: rgba(255, 181, 218, 0.664);
+}
+
+.section {
+    background-color: rgba(255, 181, 218, 0.664);
+    padding: 31px;
+    display: inline-block;
+    width: 69%;
+}
+
+.section article h2 {
+    color: rgb(255 0 191 / 36%);
+    font-size: 2.01em;
+}
+
+.section article img {
+    float: left;
+    width: 401px;
+    height: 301px;
+    margin: 21px;
+}
+
+.section article p {
+    font-size: 1.20em;
+    font-family: Garamond, serif;
+}
+
+.main {
+    margin-bottom: 30.0px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30.0px
+}
+
+td, th {
+    border: 1.0px solid #dddddd;
+    text-align: left;
+    padding: 8.0px;
+}
+
+tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even) {
+    background-color: #cf24fa;
+}
+
+tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
+    background-color: #c88ffd;
+}
+
+/*sidebar*/
+
+.aside {
+    width: 25%;
+    position: fixed;
+    right: 0px;
+}
+
+.aside ul li a img {
+    width: 50.0px;
+    height: 50.0px;
+}
+
+.aside ul li a {
+    display: flex;
+    align-items: center;
+}
+
+.aside ul li a span {
+    margin-left: 20.0px;
+}
+
+.aside ul li {
+    list-style: none;
+    margin-top: 20.0px;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    background-image: linear-gradient(to right, #e5bdf6, #d8dede);
+}
+
+.footer-social ul li {
+    display: inline;
+    list-style: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 5px;
+}
+.footer-social ul li i:hover {
+    color: rgb(255, 133, 133);
+}
+
+.send {
+    padding: 10px;
+    float: right;
+    display: inline-block;
+}
+
+.send input {
+    padding: 10px 20px;
+    border-radius: 2.0px;
+}
+
+.send button {
+    border: none;
+    background-color: rgb(255, 191, 71);
+    padding: 10.0px 20.0px;
+    text-transform: uppercase;
+    border-radius: 2.0px;
+    color: white;
+}
